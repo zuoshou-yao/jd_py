@@ -33,7 +33,7 @@ notify:
   push_plus_group: null
 
   # 依次填上corpid的值,corpsecret的值,touser的值,agentid,media_id的值，注意用,号隔开。
-  qywx_am: weixin
+  qywx_am: wwab6977f55a7f34e8,PPYFMFlJMHzymbfs7HNLUU8QFX_mhHxSFxp_ae0VF80,@all,1000003,2wlmnQvA6lxce6OPMNQhGB-Z_TXmBT9lGhCePQzuHCKSq2w9kAjswJSiANClAXDHH
 
 # 在此列表中的脚本, 将不会加入到定时任务中, 如需立即生效, 请手动执行命令: docker-entrypoint
 crontab_exclude_scripts:
