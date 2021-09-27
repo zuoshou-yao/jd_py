@@ -1,0 +1,41 @@
+# conf/config.yaml
+# 默认为True, 控制台打印消息
+debug: True
+
+# 日志保留天数
+log_days: 3
+
+# 指定进程数
+process_num: 4
+
+# 宠汪汪进程数
+joy_process_num: 1
+
+jd_cookies:
+  - pt_key=AAJhLeIIADAzXtWjUAFc7QsLafB2GXJ5p_oU8pUJ_zxtITpKG2s2E5ECOqBsDCk2VbFimOUGiuk;pt_pin=s3232189260603001;
+  - pt_key=AAJhLeWSADBX1lyYUIcNEOIwG_ouhUuYbXlaKmDEa9UxUbazsbch_xaNGOJq3W2_i6UqA4E-vVo;pt_pin=jessica%E8%8A%B1%E7%8C%AB;
+  - pt_key=AAJhLeFDADAoXLLoscEmcSnatoDVShXEKEPKZV8TZiwSo6qdriZedmObSJ8IDyzGze8e7V6mSqA;pt_pin=jd_TmQfONZfTXHL;
+  - pt_key=AAJhRXzBADBs0HM7-xzjrfA6F7t7cXX-hV6SEyZIxyU3GqSUA3aMv60OjAOb_hAgZZRhMGZF_cg;pt_pin=jd_tehHoUaNmjVC;
+# 东东农场是否使用水滴换豆卡, 100水滴换20京豆
+jd_farm_bean_card: false
+
+# 东东农场每天保留多少水滴, 用于明天的十次浇水任务
+jd_farm_retain_water: 80
+
+# 消息通知
+notify:
+  # TG机器人Token
+  tg_bot_token: aaa
+  # TG用户ID
+  tg_user_id: bbb
+  push_plus_token: null
+
+  # push+ group 一对多推送才需要次配置
+  push_plus_group: null
+
+  # 依次填上corpid的值,corpsecret的值,touser的值,agentid,media_id的值，注意用,号隔开。
+  qywx_am: wwab6977f55a7f34e8,PPYFMFlJMHzymbfs7HNLUU8QFX_mhHxSFxp_ae0VF80,@all,1000003,2wlmnQvA6lxce6OPMNQhGB-Z_TXmBT9lGhCePQzuHCKSq2w9kAjswJSiANClAXDHH
+
+# 在此列表中的脚本, 将不会加入到定时任务中, 如需立即生效, 请手动执行命令: docker-entrypoint
+crontab_exclude_scripts:
+  #- jd_bean_indiana.py
