@@ -12,9 +12,9 @@ process_num: 4
 joy_process_num: 1
 
 jd_cookies:
-  - pt_key=AAJhLeIIADAzXtWjUAFc7QsLafB2GXJ5p_oU8pUJ_zxtITpKG2s2E5ECOqBsDCk2VbFimOUGiuk;pt_pin=s3232189260603001;
-  - pt_key=AAJhLeWSADBX1lyYUIcNEOIwG_ouhUuYbXlaKmDEa9UxUbazsbch_xaNGOJq3W2_i6UqA4E-vVo;pt_pin=jessica%E8%8A%B1%E7%8C%AB;
-  - pt_key=AAJhLeFDADAoXLLoscEmcSnatoDVShXEKEPKZV8TZiwSo6qdriZedmObSJ8IDyzGze8e7V6mSqA;pt_pin=jd_TmQfONZfTXHL;
+  - pt_key=AAJhVXlIADATRFvLbUiMLtAfYHu0eZzLL52m1edzSTwPTM1fjNDRu2hKO_OMZCWYLXI0KlJ6f0I;pt_pin=s3232189260603001;
+  - pt_key=AAJhVZe3ADDTWBU23PXTS-VfaDrDxMMNl2O7HEkrGQzbq6H9Yr0CQElYJscTemlebYOTyCoE8gA;pt_pin=jessica%E8%8A%B1%E7%8C%AB;
+  - pt_key=AAJhVZbfADA4hGmdgGJoIpxsLjknTdyRMUIh0JcX8QkVnJZMt2nq7MxOJ6jdNVMMBC-VD1_nk28;pt_pin=jd_TmQfONZfTXHL;
   - pt_key=AAJhRXzBADBs0HM7-xzjrfA6F7t7cXX-hV6SEyZIxyU3GqSUA3aMv60OjAOb_hAgZZRhMGZF_cg;pt_pin=jd_tehHoUaNmjVC;
 # 东东农场是否使用水滴换豆卡, 100水滴换20京豆
 jd_farm_bean_card: false
