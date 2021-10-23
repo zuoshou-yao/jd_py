@@ -1,4 +1,4 @@
-# conf/config.yaml
+# conf/config1.yaml
 # 默认为True, 控制台打印消息
 debug: True
 
