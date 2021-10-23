@@ -172,8 +172,5 @@ case $1 in
        *jd_travels*)
         TempBlockCookie="4"
         ;;
-       *)
-        TempBlockCookie=""
-        ;;
 esac
 
