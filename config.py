@@ -166,3 +166,14 @@ JD_TRY_FILTER_KEYWORDS = [i.strip() for i in cfg.get('jd_try_filter_keywords', '
 
 # chrome路径
 CHROME_PATH = cfg.get('chrome_path', None)
+
+#排除ck
+case $1 in
+       *jd_travels*)
+        TempBlockCookie="4"
+        ;;
+       *)
+        TempBlockCookie=""
+        ;;
+esac
+
