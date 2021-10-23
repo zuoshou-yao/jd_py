@@ -39,12 +39,3 @@ notify:
 # 在此列表中的脚本, 将不会加入到定时任务中, 如需立即生效, 请手动执行命令: docker-entrypoint
 crontab_exclude_scripts:
   #- jd_bean_indiana.py
-
-case $1 in
-       *jd_travels*)
-        TempBlockCookie="4"
-        ;;
-       *)
-        TempBlockCookie=""
-        ;;
-esac
