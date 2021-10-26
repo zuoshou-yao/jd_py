@@ -31,8 +31,7 @@ class JdTravels:
     secretp = None
 
     headers = {
-        'user-agent': 'jdapp;Mozilla/5.0 (iPhone; CPU iPhone OS 13_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, '
-                      'like Gecko) Version/13.0.4 Mobile/15E148 Safari/604.1',
+        'user-agent': 'jdapp;iPhone;10.0.2;14.1;network/wifi;Mozilla/5.0 (iPhone; CPU iPhone OS 14_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148;supportJDSHWK/1',
         'referer': 'https://wbbny.m.jd.com/',
     }
 
